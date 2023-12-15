@@ -16,7 +16,7 @@ spec:
       - name: add-tasks
         env:
         - name: CONNECTION_STRING
-          value: "Driver={ODBC Driver 17 for SQL Server};Server=tcp:todoapp01.database.windows.net,1433;Database=todoapp;Uid=devopsadmin;Pwd=Devadmin12$;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+          value: "Driver={ODBC Driver 17 for SQL Server};Server=tcp:shivamapp.database.windows.net,1433;Database=app-shivam;Uid=devopsadmin;Pwd=Devops@12345;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
         image: devopsinsiders/add-task
         resources:
           limits:
